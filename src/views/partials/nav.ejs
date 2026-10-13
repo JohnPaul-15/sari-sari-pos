@@ -1,5 +1,8 @@
 <header class="topbar">
-  <div class="topbar-brand">🏪 Sari-Sari POS</div>
+  <div class="topbar-brand">
+    <img src="/png-clipart-mcdonald-s-golden-arches-logo-mcdonalds-thumbnail.png" alt="McDo logo" class="topbar-logo">
+    <span>McDo</span>
+  </div>
   <nav class="topbar-nav">
     <% if (currentUser && currentUser.role === 'admin') { %>
       <a href="/admin/dashboard">Dashboard</a>
